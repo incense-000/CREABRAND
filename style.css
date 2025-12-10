@@ -1,0 +1,47 @@
+body {
+    font-family: "noto sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "lora", serif;
+}
+
+.hero-intro {
+    color: antiquewhite;
+}
+
+.title {
+    color: palegreen;
+}
+
+.intro {
+    color: dimgrey;
+}
+
+.carousel-logo {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.card {
+    transition: ease all 0.3s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+}
+
+.portfolio-card {
+    min-height: 450px;
+}
+
+.portfolio-img {
+    object-fit: cover;
+    height: 270px;
+}
+
+
+
